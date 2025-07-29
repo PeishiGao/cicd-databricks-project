@@ -28,5 +28,4 @@ jobs:
       - uses: databricks/setup-cli@main
       - name: Update git folder
         # Set your workspace path and branch name here
-        run: databricks repos update "${{ env.REPO_PATH }}" \ 
-         --branch main
+        run: databricks repos update "${{ env.REPO_PATH }}" --branch main
